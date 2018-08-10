@@ -1,0 +1,161 @@
+
+body { -webkit-animation: bugfix infinite 1s; }
+@-webkit-keyframes bugfix { from { padding: 0; } to { padding: 0; } }
+
+.indiePlans{
+	width: 600px;
+	height: 1000px;
+	clear: both;
+	position: relative;
+}
+
+.stripes{
+	border-top:4px  #e1e0de double;
+	width: 600px;
+	clear: both;
+	height: 1px;
+}
+
+.subfoot{
+	margin-top: 720px;
+}
+
+.indiePlans a{
+	display: block;
+	float: left;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	color: #009d76;
+	background: white;
+	font-family: georgia,palatino,times,serif;
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.indiePlans a:hover{
+	color: #055643;
+	font-weight: bolder;
+	font-style: oblique;
+}
+
+#plan {
+	width: 600px;
+	height: 690px;
+	background-image:  url('../floorplans/indi-plans.png');
+	background-position: 0 0;
+	position: absolute;
+	z-index: 10;
+	margin-top:95px;
+	top: 0;
+	right: 0;
+}
+
+
+
+.a1:hover~#plan{
+	background-position: 0 -690px;
+} 
+
+
+.a2:hover~#plan{
+	background-position: 0 -1380px;
+} 
+
+.a3:hover~#plan{
+	background-position: 0 -2070px;
+} 
+
+.a4:hover~#plan{
+	background-position: 0 -2760px;
+} 
+
+.b1:hover~#plan{
+	background-position: 0 -3450px;
+} 
+
+.b2:hover~#plan{
+	background-position: 0 -4140px;
+} 
+
+.b3:hover~#plan{
+	background-position: 0 -4830px;
+} 
+
+.b4:hover~#plan{
+	background-position: 0 -5520px;} 
+
+
+
+a.room{
+	position: absolute;
+	display: block;
+	z-index: 100;
+	opacity: .7;
+	background:  url('../images/spacer.gif');
+	margin-top: 95px;
+	color: white;
+}
+
+#plan2 {
+	width: 600px;
+	height: 735px;
+	background-image:  url('../floorplans/assisted-plans.png');
+	background-position: 0 0;
+	position: absolute;
+	z-index: 10;
+	margin-top:95px;
+	top: 0;
+	right: 0;
+}
+
+#plan2map {
+	background-position: 0 0;
+	position: absolute;
+	z-index: 10;
+	margin-top:95px;
+	top: 0;
+	right: 0;
+	z-index: 100;
+}
+
+.subfoot2{
+	margin-top: 760px;
+}
+
+.s1:hover~#plan2, .s1.active~#plan2{
+	background-position: 0 -735px;
+} 
+
+.s2:hover~#plan2, .s2.active~#plan2{
+	background-position: 0 -1470px;
+} 
+
+.s3:hover~#plan2, .s3.active~#plan2{
+	background-position: 0 -2205px;
+} 
+
+
+.s4:hover~#plan2, .s4.active~#plan2{
+	background-position: 0 -2940px;
+} 
+
+
+.s5:hover~#plan2, .s5.active~#plan2{
+	background-position: 0 -3675px;
+} 
+
+
+.s6:hover~#plan2, .s6.active~#plan2{
+	background-position: 0 -4410px;
+} 
+
+
+.s7:hover~#plan2, .s7.active~#plan2{
+	background-position: 0 -5145px;
+} 
+
+
+
+

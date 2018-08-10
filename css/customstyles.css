@@ -1,0 +1,124 @@
+#ribbons {
+    height: 120px;
+}
+
+#logo {
+    height: 100px;
+}
+
+#logoSmall {
+    height: 180px;
+    /* margin-left: 60%; */
+}
+
+.serviceThumbnail {
+    height: 160px;
+    overflow: hidden;
+}
+
+/* #memoryCareIMG {
+    position: relative;
+    bottom: 20px;
+}
+
+#villaIMG, #personalCareIMG {
+    position: relative;
+    bottom: 10px;
+} */
+
+
+.director {
+    margin: auto;
+    height: 380px;
+}
+
+.servicesSection {
+    padding-top: 0
+}
+
+.community {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/* .videos {
+    margin: 0 auto;
+} */
+.videos * {
+    /* margin: 10px; */
+    max-width: 90%;
+}
+
+
+.villa {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+
+
+
+
+/*  For Desktop Viewers */
+
+@media (min-width: 1080px) {
+    /* #contactInfo {
+        padding-left: 120px;
+    } */
+    #footerContainer{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #logoFooter {
+        padding-top: 35px;
+    }
+
+    #navbar {
+        height: 280px;
+    }
+    
+    /* #left {
+        float: left;
+    }
+
+    #center{
+        float: center;
+    } */
+
+    .list {
+        padding: 35px 150px;
+    }
+
+    #carousel {
+        width: 700px;
+        margin: 40px auto 0;
+        border: 5px solid #e5ddc9;
+    }
+
+    /* .rd-navbar-inner{
+        padding-left: 50px;
+        padding-right: 50px;
+    } */
+    
+    .floorlink {
+        width: 200px;
+    }
+}
+
+
+
+
+
+/*  For mobile viewers */
+
+@media (max-width: 550px) {
+
+    /*  Ammenities Styling  */
+    .section-xs-top-10 {
+        padding-top: 30px;
+    }
+
+    .floorlink {
+        margin: 0 10px;
+    }
+}

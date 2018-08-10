@@ -1,0 +1,914 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* Top Level Elements */
+
+html, body {
+margin: 0px;
+padding: 0px;
+background: #aca99f url(../images/scaffolding/villasBkg.png) top center repeat-x;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#ourCommunity {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/aboutOurCommunity.png");
+    background-repeat: no-repeat;
+}
+
+h1#whoWeAre {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/whoWeAre.png");
+    background-repeat: no-repeat;
+}
+
+h1#ourDirectors {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/ourDirectors.png");
+    background-repeat: no-repeat;
+}
+
+h1#careContinuum {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/careContinuum.png");
+    background-repeat: no-repeat;
+}
+
+h1#lifestyleAmenities {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/lifestyleAmenities.png");
+    background-repeat: no-repeat;
+}
+
+h1#charterMemberships {
+    padding-top: 45px;
+    height: 32px;
+    overflow: hidden;
+    background-image: url("../images/headers/charterMemberships2.png");
+    background-repeat: no-repeat;
+}
+
+h1#financialComparisons {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/financialComparisons.png");
+    background-repeat: no-repeat;
+}
+
+h1#mapsFloorplans {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/mapsFloorplans.png");
+    background-repeat: no-repeat;
+}
+
+h1#mapsIndFloorplans {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/floorplansIndep.jpg");
+    background-repeat: no-repeat;
+}
+
+h1#commonQuestions {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/commonQuestions.png");
+    background-repeat: no-repeat;
+}
+
+h1#contactInformation {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/contactInformation.png");
+    background-repeat: no-repeat;
+}
+
+h1#realtorreferrals {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/realtorreferral.gif");
+    background-repeat: no-repeat;
+}
+
+h1#newsletterInformation {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/newsletterInformation.png");
+    background-repeat: no-repeat;
+}
+
+h1#drivingDirections {
+    padding-top: 45px;
+    height: 0px;
+    overflow: hidden;
+    background-image: url("../images/headers/drivingDirections.png");
+    background-repeat: no-repeat;
+}
+
+hr {
+border-top:1px solid #e3e1d8;
+border-right:none;
+border-bottom:1px solid #e3e1d8;
+border-left:none;
+height:4px;
+display:block;
+color:#FFFFFF;
+background-color:#FFFFFF;
+width:100%;
+margin:30px 0px 30px 0px;
+}
+
+img {
+border: none;
+}
+
+#FAQ li {
+color:#231f20;
+font-weight:normal;
+margin: 5px 0px 5px 0px;
+}
+
+#FAQ li a, a:link {
+color:#005847;
+font-weight:bold;
+text-decoration:none;
+}
+
+#lightboxBaffle {
+display:none;
+}
+
+p a, p a:link {
+color:#005847;
+}
+
+/* END Top Level Elements */
+
+#container {
+margin: 0px auto 0px auto;
+padding: 0px;
+width: 1052px;
+background-image:url(../images/scaffolding/containerBkg.png);
+background-repeat:no-repeat;
+text-align: center;
+}
+
+/* Header Elements */
+#header {
+margin: 0px auto 0px auto;
+padding: 0px;
+width: 968px;
+height: 160px;
+background-image:url(../images/scaffolding/villasHeader.jpg);
+background-repeat: no-repeat;
+background-position: center;
+text-align:left;
+}
+
+.logoBaffle {
+margin:0px 0px 0px 280px;
+width:410px;
+height:90px;
+display:block;
+}
+
+#utilityNav {
+margin:32px 0px 0px 675px;
+}
+
+#taf {
+display:none;
+}
+
+
+/* END Header Elements */
+
+/* Nav Elements */
+
+#nav, #nav ul { /* all lists */
+	list-style: none;
+	line-height: 1;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	height: 27px;
+	width: 968px;
+	text-align: center;
+	background-image: url(../images/primaryNavigation/navBkg.png);
+	background-repeat:no-repeat;	
+}
+
+#nav a {
+	display: block;
+	width: 10em;
+}
+
+#nav li { /* all list items */
+	float: left;
+	width: 10em; /* width needed or else Opera goes nuts */
+}
+
+#nav li ul { /* second-level lists */
+	position: absolute;
+	background: orange;
+	width: 10em;
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+}
+
+#nav li:hover ul, #nav li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+
+#navContainer {
+margin: 0px auto 0px auto;
+padding: 0px;
+height: 27px;
+width: 968px;
+text-align: center;
+background-image: url(../images/primaryNavigation/navBkg.png);
+background-repeat:no-repeat;
+}
+
+#navBtnContainer {
+margin: 0px 0px 0px 108px;
+height:27px;
+}
+
+#navBar {
+margin: 0px auto 0px auto;
+padding: 0px;
+height:29px;
+background-image: url(../images/primaryNavigation/navBar.png);
+background-repeat: no-repeat;
+width: 968px;
+}
+
+.img-over {
+cursor:pointer;
+}
+/* END Nav Elements */
+
+/* Content Container Elements */
+#contentOuter {
+text-align:left;
+margin: 0px auto 0px auto;
+padding: 0px;
+width: 968px;
+}
+/* END Content Container Elements */
+
+/* One Column Layout */
+#oneColRight {
+width:610px;
+float:right;
+margin:0px 203px 0px 0px;
+padding:0px;
+font-size:12px;
+color:#231f20;
+}
+
+#oneColRightmap {
+width: 751px;
+float: left;
+margin:0px 203px 0px 0px;
+padding:0px;
+font-size:12px;
+color:#231f20;
+}
+
+#floorplanWrapper {
+width:596px;
+height:236px;
+display:block;
+background-image:url(../images/floorplans/floorplansSelectBg.png);
+background-repeat:no-repeat;
+padding-left:24px;
+}
+
+#planHolder {
+text-align:center;
+background-color: #FFFFFF;
+}
+#planHolderOther {
+text-align:center;
+}
+#planHolderImage {
+cursor:pointer;
+}
+
+.indFloorPlanOptions {
+margin:71px 0px 0px 0px;
+width:266px;
+height:134px;
+float:left;
+text-align:left;
+}
+
+.villasFloorPlanOptions {
+margin:71px 0px 0px 40px;
+text-align:left;
+width:266px;
+height:134px;
+float:left;
+}
+
+.idLiving {
+width:253px;
+}
+
+.villas {
+width:291px;
+float:right;
+margin-right:35px;
+}
+
+/* END One Column Layout */
+
+/* Two Column Layout */
+#twoColLeft {
+margin: 0px 0px 0px 25px;
+padding:0px;
+width: 580px;
+height: 457px;
+}
+
+#twoColRight {
+float:right;
+width:230px;
+text-align:left;
+padding:0px;
+margin:0px 130px 0px 0px;
+}
+
+#twoColRight .welcome {
+padding:0px;
+margin:0px 0px 15px 0px;
+}
+
+#twoColBottom {
+clear:both;
+display:block;
+width:968px;
+padding: 20px 0px 0px 0px;
+margin:0px;
+text-align:left;
+}
+
+.firstCTA {
+margin-left:120px;
+}
+/* END Two Column Layout */
+
+/* Three Column Layout */
+#threeColContentOuter {
+text-align:left;
+margin: 0px auto 0px auto;
+padding: 0px;
+width: 1076px;
+}
+
+#threeColContentOuter2 {
+text-align:left;
+margin: 0px auto 0px auto;
+padding: 0px;
+width: 1076px;
+}
+
+#threeColCenter {
+width:440px;
+float:right;
+}
+
+#threeColCenter ul {
+margin:0px;
+padding:0px;
+list-style-type:none;
+}
+
+#threeColCenter li {
+margin-bottom:5px;
+background-image:url(../images/extras/listBullet.gif);
+background-repeat:no-repeat;
+background-position:top left;
+padding-left:8px;
+}
+
+#fontSizer {
+width:100px;
+height:13px;
+display:block;
+background-image:url(../images/utilities/fontSizerBg.gif);
+background-repeat:no-repeat;
+text-align:right;
+margin:0px 0px 0px 320px;
+}
+
+#fontSizerHome {
+width:100px;
+height:13px;
+display:block;
+background-image:url(../images/utilities/fontSizerBg.gif);
+background-repeat:no-repeat;
+text-align:right;
+margin:0px 0px 0px 120px;
+}
+
+#lilA {
+margin:0px 16px 0px 0px;
+cursor:pointer;
+}
+
+#bigA {
+cursor:pointer;
+}
+
+.threeColHeader {
+margin:0px 0px 15px 0px;
+padding:0px;
+}
+
+#threeColLeft {
+float:left;
+width:221px;
+text-align:center;
+margin-left:42px;
+}
+
+#threeColRight {
+float:right;
+text-align:left;
+width:350px;
+padding:30px 0px 60px 0px;
+}
+
+.directionsDownloadCta {
+margin-left:20px;
+cursor:pointer;
+}
+
+#mapContainer {
+background-image:url(../images/extras/directionsMap.png);
+background-repeat:no-repeat;
+width:482px;
+height:385px;
+cursor:pointer;
+}
+
+.smallSubCta {
+margin-left:40px;
+}
+
+.floorPlanCta {
+margin-top:20px;
+}
+
+.threeColCTA {
+margin-top:50px;
+}
+
+.subNavTop {
+background-image:url(../images/subNavigation/subNavTop.png);
+background-repeat:no-repeat;
+margin:0px;
+padding:0px;
+height:20px;
+display:block;
+}
+
+.subNavCenter {
+background-image:url(../images/subNavigation/subNavBg.png);
+background-repeat:repeat-y;
+margin:0px;
+padding:0px;
+text-align:left;
+}
+
+.subNavBottom {
+background-image:url(../images/subNavigation/subNavBottom.png);
+background-repeat:no-repeat;
+margin:0px;
+padding:0px;
+height:20px;
+display:block;
+}
+
+#threeColClear {
+clear:both;
+display:block;
+width:968px;
+padding:0px;
+margin:0px;
+}
+
+#list {
+width:100%;
+margin-bottom:40px;
+display:block;
+}
+
+#list div {
+width:50%;
+float:left;
+}
+
+.disclaimer {
+font-style:italic;
+padding:0px;
+margin:0px;
+}
+
+#compareWrapper {
+width:100%;
+text-align:left;
+margin-bottom:100px;
+}
+
+#compareColumnsItems {
+width:270px;
+padding-top:55px;
+}
+
+#compareColumnsItems p {
+width:270px;
+padding:0px;
+display:block;
+margin:0px;
+font-size:12px;
+font-weight:bold;
+}
+
+#compareColumnsItems br {
+margin-bottom:6px;
+}
+
+#compareColumns {
+float:right;
+background-image:url(../images/extras/financialTitles.gif);
+background-repeat:no-repeat;
+width:165px;
+padding-top:50px;
+line-height:0px;
+}
+
+#compareColumns label {
+color:#000000;
+font-size:12px;
+font-weight:normal;
+font-style:normal;
+margin-left:6px;
+display:block;
+}
+
+.compInput {
+font-size:12px;
+width:60px;
+border:none;
+background:none;
+border-bottom:1px dashed #000000;
+padding:1px 0px 1px 0px;
+margin:0px;
+}
+
+.totalInput {
+font-size:12px;
+width:60px;
+border:none;
+background:none;
+border-bottom:2px solid #000000;
+padding:2px;
+margin:0px;
+}
+
+.villaRent {
+font-size:12px;
+width:47px;
+border:none;
+background:none;
+border-bottom:2px solid #003333;
+padding:2px;
+margin:0px 0px 0px 12px;
+}
+
+.villaRate {
+font-size:12px;
+font-style:italic;
+font-weight:bold;
+color:#003333;
+margin:0px 0px 0px 100px;
+}
+
+.lastLabel {
+margin-bottom:10px;
+}
+
+form {
+margin:0px;
+padding:0px;
+}
+/* END Three Column Layout */
+
+/* Global Footer Elements */
+#footHeader {
+margin: 50px auto 0px auto;
+background-image: url(../images/scaffolding/footHeader.jpg);
+background-repeat: no-repeat;
+width: 968px;
+height: 39px;
+border-left: solid 1px #000000;
+border-right: solid 1px #000000;
+}
+
+#footContainer {
+margin: 0px auto 0px auto;
+background-color: #336666;
+width: 968px;
+min-height: 220px;
+border-left: solid 1px #000000;
+border-right: solid 1px #000000;
+}
+
+.footerNav {
+margin: 0px auto 0px auto;
+padding: 5px 0px 0px 103px;
+color: #c7a663;
+list-style: none;
+list-style-type: none;
+text-align: left;
+}
+
+.footerNav li {
+display: inline;
+float: left;
+width: auto;
+margin: 0px;
+padding: 0px 48px 0px 0px;
+font-size: 14px;
+font-weight: bold;
+}
+
+.footerNav li a, .footerNav li a:link, .footerNav li a:visited {
+display: inline;
+color: #c7a663;
+text-decoration: none;
+}
+
+.footerNav li a:hover, .footerNav li a:active {
+color: #ffffff;
+text-decoration: none;
+}
+
+.footerNavSub {
+margin: 0px;
+padding: 0px;
+color: #ffffff;
+list-style: none;
+list-style-type: none;
+text-align: left;
+}
+
+.footerNavSub li {
+clear: both;
+display: block;
+margin: 0px;
+padding: 0px;
+font-size: 12px;
+line-height: 18px;
+font-weight: normal;
+width: auto;
+}
+
+.footerNavSub li a, .footerNavSub li a:link, .footerNavSub li a:visited {
+display: block;
+color: #ffffff;
+text-decoration: none;
+}
+
+.footerNavSub li a:hover, .footerNavSub li a:active {
+color: #c7a663;
+text-decoration: none;
+}
+
+#copy {
+margin: 145px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#copy p {
+clear: both;
+color: #ffffff;
+font-size: 12px;
+display: block;
+}
+
+#copy a, #copy a:link, #copy a:visited {
+text-decoration:none;
+color: #ffffff;
+}
+
+#copy a:hover, #copy a:active{
+text-decoration:underline;
+color: #ffffff;
+}
+
+
+/* END Global Footer Elements */
+a.home-nav {
+	background:url(../images/primaryNavigation/home-btn.jpg) top left no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+	width:106px;
+}
+
+a.home-nav:hover {
+	background:url(../images/primaryNavigation/home-btn-on.jpg) top left no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+	width:106px;
+}
+a.whoWeAre-nav {
+	background:url(../images/primaryNavigation/who-btn.jpg) top left no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+	width:155px;
+}
+
+a.whoWeAre-nav:hover {
+	background:url(../images/primaryNavigation/who-btn-on.jpg) top left no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+	width:155px;
+}
+a.community-nav {
+	background:url(../images/primaryNavigation/community-btn.jpg) top left no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+	width:170px;
+}
+
+a.community-nav:hover {
+	background:url(../images/primaryNavigation/community-btn-on.jpg) top left no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+	width:170px;
+}
+a.questions-nav {
+	background:url(../images/primaryNavigation/questions-btn.jpg) top left no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+	width:192px;
+}
+
+a.questions-nav:hover {
+	background:url(../images/primaryNavigation/questions-btn-on.jpg) top left no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+	width:192px;
+}
+a.contact-nav {
+	background:url(../images/primaryNavigation/contact-btn.jpg) top left no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+	width:128px;
+}
+
+a.contact-nav:hover {
+	background:url(../images/primaryNavigation/contact-btn-on.jpg) top left no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+	width:128px;
+}
+#videoplayer{
+	z-index: 0;
+}
+#full-videoplayer{
+	z-index: 0;
+	text-align: center;
+	margin: 0px 10px 0px 0px;
+}
+
+
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0;
+		background-color: #00302c;
+		background-color: rgba(0, 48, 44, 0.8);
+	}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top: 100px; 
+		left: 50%;
+		margin-left: -300px;
+		width: 520px;
+		background: #e6ddbd url(/images/modal-gloss.png) no-repeat -200px -80px;
+		position: absolute;
+		z-index: 101;
+		padding: 30px 40px 34px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	.reveal-modal.xpand 		{ width: 95%; margin: 0 auto;}
+	}
+	
+	.reveal-modal .close-reveal-modal {
+		font-size: 22px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		} 
+	/*
+		
+	NOTES
+	
+	Close button entity is &#215;
+	
+	Example markup
+	
+	<div id="myModal" class="reveal-modal">
+		<h2>Awesome. I have it.</h2>
+		<p class="lead">Your couch.  I it's mine.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+	
+	*/
+	
+	
+	
+	/* ********** Page-specific Presentational Markup  By Everitt Chase at Alchemy Graphics ************/
+	
+	#tour{
+		width: 430px;
+		height: 738px;
+		background: url('/images/new-vt.jpg') no-repeat;
+		margin-left: 120px;
+	}
+	
+	#new-tour{
+		width: 430px;
+		height: 738px;
+		background: url('/images/new-vt.jpg') no-repeat;
+		margin-left: 120px;
+	}
+
+	
+#tour A{
+		display: block;
+		width: 430px;
+		height: 248px;
+		text-indent: -999em;
+		overflow: hidden;
+		border: none;
+	}
+	
+

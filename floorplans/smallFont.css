@@ -1,0 +1,49 @@
+#twoColRight p {
+line-height:18px;
+font-size:12px;
+padding:0px;
+margin:0px 0px 15px 8px;
+color:#231f20;
+}
+
+#threeColCenter p {
+color:#231f20;
+font-size:12px;
+line-height:18px;
+padding:0px;
+margin:0px 20px 15px 0px;
+}
+
+#list p {
+color:#231f20;
+font-size:12px;
+padding:0px;
+margin:0px 0px 4px 0px;
+line-height:18px;
+}
+
+#threeColCenter ul {
+color:#231f20;
+font-size:12px;
+line-height:18px;
+}
+
+/* Contact Form */
+table, table input {
+font-size:11px;
+color:#333333;
+}
+
+#or {
+	font-size: 12px; font-weight: 800; color: #003333;
+}
+
+#contacttitle {
+	font-family: times, serif; font-size: 14px; font-weight: 800; color: #003333;
+}
+
+#address {
+	font-size: 12px;
+}
+
+/* END Contact Form */

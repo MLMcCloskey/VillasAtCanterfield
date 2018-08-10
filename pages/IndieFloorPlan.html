@@ -1,0 +1,497 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta name="keywords" content="assisted living, assisted, memory care, elderly, franklin, brentwood, franklin assisted living,brentwood assisted living, independent living, senior, senior apartments, a place for mom cumming, home care">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Canterfield, A Retirement Community: Floorplans</title>
+  <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="../js/swfobject.js"></script>
+  <!-- Stylesheets-->
+  <LINK href="../css/maps.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alegreya+Sans:400,800,700,400italic">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/customstyles.css">
+
+  <script>
+    $(document).ready(function () {
+      $(".lightbox").lightbox();
+    });
+    var pSec = "community-btn";
+    var sSec = "mapsFloorPlansBtn";
+    var img = "";
+  </script>
+  <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+    // <!--
+
+    // Here is a working example of the script. First define some variables.
+    // The variable "base" is not "images" but "pix/mo_".
+
+
+    // Some variables
+
+    var base = "../images/floorplans/"
+    var nrm = new Array();
+    var omo = new Array();
+    var ocl = new Array();
+    var stuff = new Array('1br', '1brWden', '2br', '2brWden', '1br1baDen1ga', '2br2baDen2Ga', '2br2ba2ga');
+    var select = -1;
+    var name2 = "";
+    var temp = 0;
+
+    // Pre-load part.
+
+    if (document.images) {
+      for (i = 0; i < stuff.length; i++) {
+        nrm[i] = new Image;
+        nrm[i].src = base + stuff[i] + ".jpg"
+        omo[i] = new Image;
+        omo[i].src = base + stuff[i] + "-on.jpg";
+        ocl[i] = new Image;
+        ocl[i].src = base + stuff[i] + "-on.jpg";
+      }
+    }
+
+    // The functions: first mouseover, then mouseout
+
+    function over(no) {
+      if (document.images && select != no) {
+        document.images[stuff[no]].src = omo[no].src
+      }
+    }
+
+    function out(no) {
+      if (document.images && select != no) {
+        document.images[stuff[no]].src = nrm[no].src
+      }
+    }
+
+    function clic(no) {
+      if (document.images) {
+        document.images[stuff[no]].src = ocl[no].src
+        temp = select;
+        select = no;
+        if (temp != -1) { out(temp) }
+      }
+    }
+
+
+// -->
+  </SCRIPT>
+  <script type="text/javascript">
+    var pSec = "community-btn";
+    var sSec = "careContinuumBtn";
+    function MM_swapImgRestore() { //v3.0
+      var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+    }
+    function MM_preloadImages() { //v3.0
+      var d = document; if (d.images) {
+        if (!d.MM_p) d.MM_p = new Array();
+        var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+          if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+      }
+    }
+
+    function MM_findObj(n, d) { //v4.01
+      var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+        d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+      }
+      if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+      for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+      if (!x && d.getElementById) x = d.getElementById(n); return x;
+    }
+
+    function MM_swapImage() { //v3.0
+      var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+        if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+    }
+  </script>
+  <script type="text/javascript" src="../js/prototype.js"></script>
+  <script type="text/javascript" src="../js/scriptaculous.js?load=effects,builder"></script>
+  <script type="text/javascript" src="../js/lightbox.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <!-- Page-->
+    <div class="page text-center">
+      <!-- Page Header-->
+      <header class="page-head">
+
+        <!-- Mobile header -->
+        <div class="veil-sm">
+          <div class="shell">
+            <div class="range range-xs-center text-xs-left section-25">
+              <div class="unit unit-xs-horizontal">
+                <div class="unit-body" style="margin: 0 auto;">
+                  <img src="../images/vcanlogo300px.png" alt="logo" id="logoSmall">
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="divider offset-top-0 offset-bottom-0">
+        </div>
+
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap" style="height: 280px">
+          <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fullwidth" data-sm-device-layout="rd-navbar-fullwidth"
+            data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="229px" data-lg-stick-up-offset="155px"
+            class="rd-navbar rd-navbar-default">
+            <!-- RD Navbar top part-->
+            <div class="rd-navbar-top-part bg-primary">
+              <div class="shell">
+                <div class="reveal-sm-flex range-sm-justify">
+                  <div>
+                    <!-- Social media icons -->
+                    <ul class="list-inline list-inline-md">
+                      <li>
+                        <a href="https://www.facebook.com/TheVillasAtCanterfield/" class="icon fa-facebook icon-default"></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="offset-top-5 offset-md-top-0">
+                    <ul class="list-inline list-inline-sm reveal-inline reval-md-block">
+                      <li class="text-gold text-italic">An Independent, Personal Care, and Memory Care Community</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rd-navbar-inner rd-navbar-inner-1">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle">
+                  <span></span>
+                </button>
+                <div class="reveal-sm-flex range-sm-around range-md-justify range-sm-middle">
+                  <div>
+                    <!-- RD Navbar Brand-->
+                    <div class="rd-navbar-brand brand">
+                      <a href="../index.html" class="brand-name">
+                        <img class="logo" src="../images/vcanlogo75px.png" alt="logo" style="padding-top:20px;">
+                        <span class="propertyname text-primary brand-name btn-group-vertical">The Villas at Canterfield</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="veil reveal-sm-block">
+                    <ul class="list-inline list-inline-from-md text-left">
+                      <li>
+                        <div class="unit unit-xl-horizontal unit-lg-horizontal unit-md-horizontal unit-sm-horizontal unit-middle">
+                          <div class="unit-left">
+                          </div>
+                          <div class="unit-body">
+                            <div class="ribbons">
+                              <img src="../images/BestOfRibbonsEdited.png" id="ribbons">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="offset-top-15 offset-md-top-0">
+                        <div class="unit unit-xl-horizontal unit-lg-horizontal unit-md-horizontal unit-sm-horizontal unit-middle">
+                          <!-- <div class="unit-left"> -->
+                          <!-- <div class="icon fa-clock-o icon-circle text-primary"></div> -->
+                          <!-- </div> -->
+                          <div class="unit-body">
+                            <div class="text-extra-bold text-gray-lighter">
+                              <a href="contacts.html" class="text-gold">Schedule a Tour!</a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="divider offset-top-0 offset-bottom-0">
+            <div class="rd-navbar-inner rd-navbar-inner-2 offset-top-0">
+              <div class="reveal-sm-flex range-sm-justify range-sm-middle pos-relative">
+                <div class="rd-navbar-nav-wrap text-md-left">
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li class="active">
+                      <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="whoweare.html">Who We Are</a>
+                    </li>
+
+                    <!-- RD Navbar Dropdown : Community-->
+                    <li>
+                      <a>Our Community</a>
+                      <ul class="rd-navbar-dropdown">
+                        <li>
+                          <a href="independent-living.html">Independent Living</a>
+                        </li>
+                        <li>
+                          <a href="personal-care.html">Personal Care</a>
+                        </li>
+                        <li>
+                          <a href="memory-care.html">Memory Care</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- RD Navbar Dropdown : News and Events-->
+                    <li>
+                      <a href="#">News and Events</a>
+                      <ul class="rd-navbar-dropdown">
+                        <li>
+                          <a href="#">Calendars</a>
+                          <ul class="rd-navbar-dropdown">
+                            <li>
+                              <a onclick="window.open('../calendarsAndNews/PC-Activities-Calendar.pdf')">Personal Care</a>
+                            </li>
+                            <li>
+                              <a onclick="window.open('../calendarsAndNews/MC-Activities-Calendar.pdf')">Memory Care</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a onclick="window.open('../calendarsAndNews/PC-and-MC-Newsletter.pdf')">Newsletter</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- RD Navbar Dropdown : Contact-->
+                    <li>
+                      <a href="contacts.html">Contact Us</a>
+                      <ul class="rd-navbar-dropdown">
+                        <li>
+                          <a href="contacts.html">Contact Information</a>
+                        </li>
+                        <li>
+                          <a href="realtor.html">Realtor Referrals</a>
+                        </li>
+                        <li>
+                          <a href="#">Employment Opportunities</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- RD Navbar : FAQ -->
+                    <li>
+                      <a href="commonquestions.html">Common Questions</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="veil-sm" style="background-color: #e5ddc9;">
+              <div class="shell">
+                <div class="range range-xs-center text-xs-left section-25">
+                  <div class="cell-xs-6">
+                    <div class="unit unit-xs-horizontal">
+                      <div class="unit-body">
+                        <div class="text-extra-bold text-gray-light">
+                          <a href='./pages/contacts.html'>Schedule a Tour!</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cell-xs-6 offset-top-20 offset-xs-top-0">
+                    <div class="unit unit-xs-horizontal">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr class="divider offset-top-0 offset-bottom-0">
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- END Header -->
+
+      <div id="threeColContentOuter">
+        <div id="oneColRight">
+          <br>
+          <h3 class="text-center">Maps and Floor Plans</h3>
+          <br>
+          <h4 class="text-center">Select from the list, or click the map to view details of each floor plan.</h4>
+
+          <div class="indiePlans center-block">
+            <div class="stripes">&nbsp;</div>
+            <a href="javascript:void(0);" class="a1" href=# onclick="window.open('../floorplans/independent/arabian.png')"> Arabian</a>
+            <a href="javascript:void(0);" class="a2" href=# onclick="window.open('../floorplans/independent/mustang.png')"> Mustang </a>
+            <a href="javascript:void(0);" class="a3" href=# onclick="window.open('../floorplans/independent/appaloosa.png')"> Appaloosa </a>
+            <a href="javascript:void(0);" class="a4" href=# onclick="window.open('../floorplans/independent/saddlebred.png')"> Saddle Bred </a>
+            <a href="javascript:void(0);" class="b1" href=# onclick="window.open('../floorplans/independent/thoroughbred.png')"> Thoroughbred </a>
+            <a href="javascript:void(0);" class="b2" href=# onclick="window.open('../floorplans/independent/foresian.png')"> Foresian </a>
+            <a href="javascript:void(0);" class="b3" href=# onclick="window.open('../floorplans/independent/andalusian.png')"> Andalusian </a>
+            <a href="javascript:void(0);" class="b4" href=# onclick="window.open('../floorplans/independent/clydesdale.png')"> Clydesdale </a>
+            <div class="stripes">&nbsp;</div>
+
+            <div class="stripes subfoot">&nbsp;</div>
+            <a href="javascript:void(0);" class="a1" href=# onclick="window.open('../floorplans/independent/arabian.png')"> Arabian</a>
+            <a href="javascript:void(0);" class="a2" href=# onclick="window.open('../floorplans/independent/mustang.png')"> Mustang </a>
+            <a href="javascript:void(0);" class="a3" href=# onclick="window.open('../floorplans/independent/appaloosa.png')"> Appaloosa </a>
+            <a href="javascript:void(0);" class="a4" href=# onclick="window.open('../floorplans/independent/saddlebred.png')"> Saddle Bred </a>
+            <a href="javascript:void(0);" class="b1" href=# onclick="window.open('../floorplans/independent/thoroughbred.png')"> Thoroughbred </a>
+            <a href="javascript:void(0);" class="b2" href=# onclick="window.open('../floorplans/independent/foresian.png')"> Foresian </a>
+            <a href="javascript:void(0);" class="b3" href=# onclick="window.open('../floorplans/independent/andalusian.png')"> Andalusian </a>
+            <a href="javascript:void(0);" class="b4" href=# onclick="window.open('../floorplans/independent/clydesdale.png')"> Clydesdale </a>
+            <div class="stripes">&nbsp;</div>
+
+            <a href="javascript:void(0);" class="room a1" style="height: 69px; width: 54px; top: 96px; left: 434px;"></a>
+            <a href="javascript:void(0);" class="room a1" style="height: 54px; width: 153px; top: 338px; left: 34px;"></a>
+            <a href="javascript:void(0);" class="room a1" style="height: 103px; width: 69px; top: 158px; left: 117px;"></a>
+            <a href="javascript:void(0);" class="room a2" style="height: 158px; width: 69px; top: 158px; left: 34px;"></a>
+            <a href="javascript:void(0);" class="room a3" style="height: 81px; width: 100px; top: 95px; left: 332px;"></a>
+            <a href="javascript:void(0);" class="room a3" style="height: 78px; width: 102px; top: 1px; left: 76px;"></a>
+            <a href="javascript:void(0);" class="room a4" style="height: 94px; width: 105px; top: 1px; left: 329px;"></a>
+            <a href="javascript:void(0);" class="room b1" style="height: 78px; width: 77px; top: 9px; left: 177px;"></a>
+            <a href="javascript:void(0);" class="room b1" style="height: 85px; width: 79px; top: 11px; left: 433px;"></a>
+            <a href="javascript:void(0);" class="room b1" style="height: 78px; width: 85px; top: 261px; left: 103px;"></a>
+            <a href="javascript:void(0);" class="room b2" style="height: 78px; width: 75px; top: 9px; left: 254px;"></a>
+            <a href="javascript:void(0);" class="room b2" style="height: 78px; width: 156px; top: 87px; left: 176px;"></a>
+            <a href="javascript:void(0);" class="room b3" style="height: 89px; width: 153px; top: 392px; left: 34px;"></a>
+            <a href="javascript:void(0);" class="room b3" style="height: 154px; width: 90px; top: 11px; left: 510px;"></a>
+            <a href="javascript:void(0);" class="room b4" style="height: 100px; width: 75px; top: 10px; left: 1px;"></a>
+            <div id="plan">&nbsp;</div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Page Footer-->
+      <div class="footer-offset-none">
+        <footer class="page-footer footer-default text-sm-left">
+          <div class="bg-cape-cod section-60 section-md-top-85 section-md-bottom-70" id="footerContainer">
+            <div class="shell">
+              <div class="range">
+                <div class="cell-sm-6 cell-md-4 text-center" id="center">
+                  <div class="offset-top-20">
+                    <img src="../images/vcanlogo75px.png" alt="logo" id="logo">
+                  </div>
+                  <div class="brand">
+                    <a href="../index.html" class="brand-name">
+                      <span class="text-primary">The Villas at Canterfield</span>
+                    </a>
+                  </div>
+                  <div class="offset-top-20">
+                    <p>An independent and assisted living community.</p>
+                  </div>
+                </div>
+                <div class="cell-sm-6 cell-md-4 offset-top-50 offset-md-top-0">
+                  <h6 class="text-white">Contact info</h6>
+                  <div class="offset-sm-top-25"></div>
+                  <div class="unit unit-xl-horizontal unit-lg-horizontal unit-md-horizontal unit-sm-horizontal unit-xs-vertical">
+                    <div class="unit-left">
+                      <div class="icon fa-phone icon-circle text-middle text-primary"></div>
+                    </div>
+                    <div class="unit-body">
+                      <div class="text-italic">
+                        <div class="text-italic">
+                          <span>Independent Living Inquiries: </span>
+                          <br>
+                          <a href="callto:770-888-4929">678-208-2418</a>
+                        </div>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="unit unit-xl-horizontal unit-lg-horizontal unit-md-horizontal unit-sm-horizontal unit-xs-vertical">
+                    <div class="unit-left">
+                      <div class="icon fa-phone icon-circle text-middle text-primary"></div>
+                    </div>
+                    <div class="unit-body">
+                      <div class="text-italic">
+                        <div class="text-italic">
+                          <span>Personal or Memory Care Inquiries: </span>
+                          <br>
+                          <a href="callto:770-888-4929">770-888-4929</a>
+                        </div>
+                        <br>
+                        <br class="veil-lg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="offset-top-25 offset-sm-top-10 unit unit-xl-horizontal unit-lg-horizontal unit-md-horizontal unit-sm-horizontal unit-xs-vertical">
+                    <div class="unit-left">
+                      <div class="icon fa-envelope icon-circle text-middle text-primary"></div>
+                    </div>
+                    <div class="unit-body">
+                      <div class="text-italic">
+                        <a href="mailto:lisa@TheVillasAtCanterfield.com">Lisa@TheVillasAtCanterfield.com</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="cell-sm-6 cell-md-4 offset-top-50 offset-md-top-0" id="left">
+                  <h6 class="text-white">Address</h6>
+                  <div class="offset-top-25">
+                    <div class="unit unit-xl-horizontal unit-lg-horizontal unit-md-horizontal unit-sm-horizontal">
+                      <div class="unit-left">
+                        <div class="icon fa-clock-o icon-circle text-middle text-primary"></div>
+                      </div>
+                      <div class="unit-body">
+                        <div class="text-italic">815 Atlanta Hwy
+                          <br>Cumming, GA 30040</div>
+                      </div>
+                    </div>
+                  </div>
+                  <h6 class="text-white">Follow us on Facebook</h6>
+                  <div class="offset-top-25">
+                    <div class="unit unit-xl-horizontal unit-lg-horizontal unit-md-horizontal unit-sm-horizontal">
+                      <div class="unit-left">
+                        <div class="icon fa-facebook icon-circle text-primary"></div>
+                      </div>
+                      <div class="unit-body">
+                        <div class="text-italic">
+                          <a href="https://www.facebook.com/TheVillasAtCanterfield">facebook.com/TheVillasAtCanterfield/</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shell footer-container footer-copyright">
+            <div class="reveal-sm-flex range-sm-justify range-sm-reverse range-sm-middle">
+              <div class="offset-top-15 offset-sm-top-0">
+                <p>&#169;
+                  <span id="copyright-year"></span>
+                  <a href="../index.html">
+                    <span class="text-uppercase text-white">Canterfield</span>
+                  </a>.
+                  <a href="privacy.html">Privacy Policy</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <script src="../js/core.min.js"></script>
+      <script src="../js/script.js"></script>
+      <!-- END Global Footer -->
+    </div>
+  </div>
+
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("area").hover(
+      function () {
+        $("." + ($(this).attr('class'))).addClass('active');
+      },
+      function () {
+        $('.active').removeClass('active');
+      }
+    );
+  });
+</script>
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+</script>
+<script type="text/javascript">
+  var pageTracker = _gat._getTracker("UA-6218524-1");
+  pageTracker._trackPageview();
+</script>
+
+</html>
