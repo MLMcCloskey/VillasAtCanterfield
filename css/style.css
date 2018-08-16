@@ -29199,7 +29199,7 @@ h3 + .countdown {
   border: none;
   border-radius: 3px;
   color: #616262;
-  font-family: Alegreya Sans;
+  font-family: "Alegreya Sans";
   font-style: italic;
   font-size: 20px;
 }
@@ -29737,7 +29737,7 @@ h3 + .countdown {
 .rd-navbar-fullwidth ul.rd-navbar-nav > li > .rd-navbar-submenu-toggle:before {
   cursor: pointer;
   content: "\f107";
-  font-family: FontAwesome;
+  font-family: "FontAwesome";
   position: absolute;
   right: -10px;
   top: 52%;
