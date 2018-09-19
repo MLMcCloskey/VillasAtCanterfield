@@ -29007,7 +29007,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
 			};
 			b.prototype.updateMeta = function (a)
 			{
-				this.$meta.text(1 < a.length ? this.options.multiple\ u0421aption.replace("{count}", a.length + "") : a[0].name);
+				this.$meta.text(1 < a.length ? this.options.multiple.u0421aption.replace("{count}", a.length + "") : a[0].name);
 				return this
 			};
 			return b
